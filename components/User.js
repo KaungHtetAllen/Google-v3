@@ -7,7 +7,7 @@ export default function User({className}){
         console.log(session);
         return(
             <>
-                <img onClick={signOut} src={session.user.image}alt="user-image" className={`after:h-10 w-10 rounded-full hover:bg-gray-600 cursor-pointer p-1 ${className}`}/>
+                <img onClick={signOut} src={session.user.image}alt="user-image" className={`after:h-12 w-12 rounded-full hover:bg-gray-600 cursor-pointer p-1 ${className}`}/>
             </>
         )
     }
