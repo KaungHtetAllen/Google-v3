@@ -10,7 +10,7 @@ export default function Home() {
   const router = useRouter();
   const searchInputRef = useRef(null);
 
-  function search(event){
+  function Search(event){
     event.preventDefault();
     const term = searchInputRef.current.value;
     if(!term.trim())return;
@@ -49,7 +49,7 @@ export default function Home() {
           <MicrophoneIcon className="h-5"/>
           </div>
           <div className='flex flex-col sm:flex-row w-[50%] space-y-2 mt-8 sm:space-y-0 sm:space-x-4 justify-center'>
-          <button onClick={search} className='btn'>Google Search</button>
+          <button onClick={Search} className='btn'>Google Search</button>
           <button onClick={randomSearch} className='btn'>I&apos;m Feeling Lucky</button>
           </div>
       </form>
