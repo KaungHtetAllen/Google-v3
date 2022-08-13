@@ -1,4 +1,3 @@
-import { isAbsoluteUrl } from "next/dist/shared/lib/utils";
 import User from "./User";
 import Link from "next/link";
 import { useRouter } from "next/router";

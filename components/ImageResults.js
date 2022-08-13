@@ -1,5 +1,5 @@
-import React from "react"
-import PaginationButtons from "./PaginationButtons"
+import React from "react";
+import PaginationButtons from "./PaginationButtons";
 
 export default function ImageResults({results}){
     return(    

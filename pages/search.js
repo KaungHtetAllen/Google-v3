@@ -18,8 +18,6 @@ export default function Search({results}){
             {/* Search Header */}
             <SearchHeader/>
 
-
-
             {/* Search web and images Results */}
 
             {router.query.searchType === "image" ? (
