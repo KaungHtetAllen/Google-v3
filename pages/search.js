@@ -3,10 +3,10 @@ import SearchHeader from "../components/SearchHeader";
 import Response from "../Response";
 import SearchResults from "../components/SearchResults";
 import { useRouter } from "next/router";
-import ImageResults from "../components/imageResults";
+import ImageResults from "../components/ImageResults";
 
 
-export default function search({results}){
+export default function Search({results}){
     console.log(results);
     const router = useRouter();
     return(
